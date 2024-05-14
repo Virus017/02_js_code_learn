@@ -13,7 +13,7 @@ const month = 3
 switch (month) {
     case 1:
         console.log("Jan");
-        break;
+        break;     //if brake is removed, after matching it will execute all code
     case 2:
         console.log("feb");
         break;
@@ -31,3 +31,4 @@ switch (month) {
         console.log("default case");
         break;
 }
+
